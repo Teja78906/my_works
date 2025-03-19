@@ -1,0 +1,12 @@
+[package]
+name = "random"
+version = "0.0.0"
+authors = ["contact@dharitri.org"]
+edition = "2018"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.numbat-wasm]
+version = "0.29.2"
+path = "../../../../../numbat-wasm"
