@@ -1,0 +1,24 @@
+[package]
+name = "basic-features"
+version = "0.0.0"
+authors = ["contact@dharitri.org"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/basic_features_main.rs"
+
+[dependencies.numbat-wasm]
+version = "0.38.0"
+path = "../../../numbat-wasm"
+
+[dev-dependencies.numbat-wasm-debug]
+version = "0.38.0"
+path = "../../../numbat-wasm-debug"
+
+[dependencies.numbat-wasm-modules]
+version = "0.38.0"
+path = "../../../numbat-wasm-modules"
+
+[dev-dependencies.dcdt-system-sc-mock]
+path = "../dcdt-system-sc-mock"

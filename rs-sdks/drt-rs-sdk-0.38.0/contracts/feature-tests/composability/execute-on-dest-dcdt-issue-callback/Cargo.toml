@@ -1,0 +1,24 @@
+[package]
+name = "execute-on-dest-dcdt-issue-callback"
+version = "0.0.0"
+authors = ["contact@dharitri.org"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+
+[dependencies.parent]
+path = "parent"
+
+[dependencies.child]
+path = "child"
+
+[dependencies.numbat-wasm]
+version = "0.38.0"
+path = "../../../numbat-wasm"
+
+[dev-dependencies.numbat-wasm-debug]
+version = "0.38.0"
+path = "../../../numbat-wasm-debug"

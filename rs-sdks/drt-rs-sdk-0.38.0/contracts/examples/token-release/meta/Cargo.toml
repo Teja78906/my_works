@@ -1,0 +1,15 @@
+[package]
+name = "token-release-meta"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dev-dependencies]
+
+[dependencies.token-release]
+path = ".."
+
+[dependencies.numbat-wasm-debug]
+version = "0.38.0"
+path = "../../../../numbat-wasm-debug"
+

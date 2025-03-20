@@ -1,0 +1,13 @@
+[package]
+name = "crypto-bubbles-meta"
+version = "0.0.0"
+authors = ["contact@dharitri.org"]
+edition = "2021"
+publish = false
+
+[dependencies.crypto-bubbles]
+path = ".."
+
+[dependencies.numbat-wasm-debug]
+version = "0.38.0"
+path = "../../../../numbat-wasm-debug"
